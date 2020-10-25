@@ -84,3 +84,4 @@ for (auto &c:str)
 	c=toupper(c);
 ```
 
+:
