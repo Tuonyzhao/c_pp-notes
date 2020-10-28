@@ -51,7 +51,7 @@ vector<string> v8{10,"hi"};//v8有10个默认初始化为"hi"的元素
 
 创建一个空vector对象，使用vector类的成员函数push_back(参数)；push_back的作用是负责把一个值当成vector对象的尾元素“压到push”vector对象的尾端
 
-```
+```c++
 2vector<int> v2;
 f or(int i=0;i!=100;i++)
 	v2.push_back(i);
