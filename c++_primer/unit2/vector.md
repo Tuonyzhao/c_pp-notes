@@ -22,6 +22,7 @@ vector<T> v3(n,val);//v3包含了n个重复的元素，每个元素的值的都�
 vector<T>v4(n);v4包含了重复地执行了值初始化的对象
 vector<T> v5{a,b,c...};//v5包含了初始值个数的元素，每个元素被赋予相应的初始值。
 vector<T> v5={a,b,c...};//等价于v5{a,b,c...}
+int a[]={1,2,3,4,5};vector<int> cc(a,a+sizeof(a));//用数组来初始化vector
 ```
 
 ### 列表初始值还是元素数量？
@@ -81,3 +82,4 @@ v1={a,b,c...} //将列表中的元素拷贝替换到v1中
 ```
 
 不能通过下标的方式添加vector元素，如果vector是空vector，则里面一个vector都没有。
+
